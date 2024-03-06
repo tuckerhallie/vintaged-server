@@ -1,0 +1,22 @@
+[
+  {
+    "model": "vintagedapi.user",
+    "pk": 1,
+    "fields": {
+      "first_name": "Annie",
+      "last_name": "Hamilton",
+      "bio": "this is a bio!",
+      "uid": "98876"
+    }
+  },
+  {
+    "model": "vintagedapi.user",
+    "pk": "2",
+    "fields": {
+      "first_name": "Kristen",
+      "last_name": "Phillips",
+      "bio": "this is also a bio",
+      "uid": "pwaoeihf8w49ryn"
+    }
+  }
+]

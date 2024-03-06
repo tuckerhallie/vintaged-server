@@ -1,0 +1,22 @@
+[
+  {
+    "model": "vintagedapi.store",
+    "pk": 1,
+    "fields": {
+      "name": "Starland Vintage",
+      "address": "2110 8th Ave S",
+      "city": "Nashville",
+      "type": "Vintage"
+    }
+  },
+  {
+    "model": "vintagedapi.store",
+    "pk": 2,
+    "fields": {
+      "name": "Anaconda Vintage",
+      "address": "1062 E Trinity Ln #101",
+      "city": "Nashville",
+      "type": "Vintage"
+    }
+  }
+]

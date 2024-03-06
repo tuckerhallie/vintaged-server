@@ -1,0 +1,18 @@
+[
+  {
+    "model": "vintagedapi.itemfavorite",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "item": 1
+    }
+  },
+  {
+    "model": "vintagedapi.itemfavorite",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "item": 2
+    }
+  }
+]
