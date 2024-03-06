@@ -1,0 +1,27 @@
+[
+  {
+    "model": "vintagedapi.item",
+    "pk": 1,
+    "fields": {
+      "name": "Vintage 90s black leather jacket",
+      "type": "Vintage",
+      "color": "Black",
+      "image": "https://i.pinimg.com/736x/17/80/83/1780838a606df1c3149ed0ee71d4526a.jpg",
+      "user": 1,
+      "store": 1 
+
+    }
+  },
+  {
+    "model": "vintagedapi.item",
+    "pk": 2,
+    "fields": {
+      "name": "Vintage 70s leather shoes",
+      "type": "Vintage",
+      "color": "Brown",
+      "image": "https://i.pinimg.com/736x/a0/97/e3/a097e34d175d5283632dae8e2807c1ba.jpg",
+      "user": 1,
+      "store": 2
+    }
+  }
+]
