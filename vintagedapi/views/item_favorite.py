@@ -25,7 +25,12 @@ class ItemFavoriteView(ViewSet):
 
     def destroy(self, request, pk=None):
         try:
-            item_favorite = get_object_or_404(ItemFavorite, pk=pk)
+            item = Item.objects.get(pk=pk)
+            user = User.objects.get(uid=request.META.get('HTTP_AUTHORIZATION'))
+            item_favorite = ItemFavorite.objects.get(
+                item=item,
+                user=user
+            )
             item_favorite.delete()
             return Response({'message': 'item favorite deleted'}, status=status.HTTP_204_NO_CONTENT)
         except Exception as e:
